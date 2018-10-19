@@ -2,7 +2,7 @@
 A simple rest-api made with node.js and mongoDB as a practice of Web Developing
 
 
-To run this program yo must enter in the proyect folder and run "npm start" and test make the http requests in
+To run this program yo must enter in the proyect folder and run "npm start" and test making the http requests in
 the localhost:3000 using Postman (for the moment).
 
 To do list:
