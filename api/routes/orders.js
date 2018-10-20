@@ -77,7 +77,7 @@ router.get('/:orderId', (req, res, next) => {
     .then(order => {
         if(!order){
             return res.status(404).json({
-                message: "order not found"
+                message: "order not founded"
             });
         }
         res.status(200).json({
