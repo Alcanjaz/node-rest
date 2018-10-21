@@ -13,4 +13,4 @@ To run this program you must:
 
 To do list:                                                                                    
 -Make a client using Vue.js                                                                       
--Some other changes to the API like user login and image upload, because i doesn't finish the course (but does it works).
+-Some other changes to the API like user login, because i doesn't finish the course (but does it works).
