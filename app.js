@@ -9,7 +9,8 @@ mongoose.connect('mongodb://localhost/rest-shop-db', {useNewUrlParser: true})
 .catch(err =>console.error(err));
 
 const producRoutes = require('./api/routes/products');
-const producOrders = require('./api/routes/orders');
+const orderRoutes = require('./api/routes/orders');
+const userRoutes = require('./api/routes/users');
 
 app.use(morgan('dev'));
 app.use('/uploads', express.static('uploads'));
@@ -30,7 +31,8 @@ app.use((req, res, next) => {
 
 //routes which should handle request
 app.use('/products', producRoutes);
-app.use('/orders', producOrders);
+app.use('/orders', orderRoutes);
+app.use('/user', userRoutes);
 
 app.use((req, res, next) => {
     const error = new Error('not found');
