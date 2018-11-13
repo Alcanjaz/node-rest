@@ -17,7 +17,7 @@ A simple rest-api made with node.js and mongoDB as a practice of Web Developing
 -[multer](https://www.npmjs.com/package/multer) for image uploads in the request body.
 
 
-## For run this program you need:
+## Requirements:
 -Node.js
 
 -NPM
