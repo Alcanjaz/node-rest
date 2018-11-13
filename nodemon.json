@@ -1,6 +1,6 @@
 {
     "env" : {
-        "MONGO_ATLAS_PW": "alcanjaz230999",
+        "MONGO_ATLAS_PW": "your atlas cluster key here",
         "JWT_KEY": "secret"
     }
 }
